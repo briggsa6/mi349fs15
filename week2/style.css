@@ -1,0 +1,29 @@
+body{
+	text-align: center;
+	color:#0000FF;
+	width:800px;
+	text-indent: 120px
+	margin:0px;
+}
+article{
+	padding: 0;
+	background: 2em;
+}
+h1{
+	text-align: center;
+	color:#3ADF00;
+}
+
+h2{
+	text-align: center;
+	color:#3ADF00;
+	font-size:15px;
+	font-family:"Times New Roman";
+}
+
+p{
+	font-size:15px;
+	font-family:"Times New Roman";
+	color:#100719;
+	
+}

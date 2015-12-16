@@ -1,0 +1,132 @@
+.column{
+	width: 50%;
+	margin: 0 auto;
+	background: #e3e3e3;
+	padding: 1em;
+	margin-bottom:20px;
+}
+
+body{
+	background-image:url("jazz.png");
+	padding:30px;
+}
+header{
+
+	text-align:center;
+	width:400px;
+	height:100px;
+	border: 5px solid pink;
+	border-width:20px;
+
+}
+h1{
+	color:black;
+	size:10px;
+	text-align:center
+}
+h2{
+	color Purple;
+	size:50px;
+	
+	padding-top:20px;
+}
+h3{
+	Color:white;
+	size:40px;
+	text-align:center;
+}
+p{
+	text-align:center;
+	color:purple;
+}
+p2{
+	size:5px
+	color:black;
+}
+a{
+	color:blue;
+	
+
+}
+a:hover{
+	color:#e45e9d;
+	background-color:yellow;
+}
+
+.container{
+	margin: 0 auto;
+	width:700px;
+	
+	border-top: 10px;
+	background: #fff;
+}
+
+nav {
+	margin: 0 auto;
+	width:700px;
+	display:block;
+	padding:2px;
+	padding-top:20px;
+	padding-bottom:20px;
+	text-align:center;
+	border:10px;
+	list-style-type:none;
+}
+
+.imagebox{
+	text-align:center;
+}
+
+.imagebox img {
+	display:inline-block;
+	margin:0 auto;
+}
+
+@media (max-width: 700px){
+	.container{
+		width:500px;
+	}
+}
+
+@media (max-width: 400px){
+	width:300px;
+}
+.threecolumn{
+	width:240px;
+	flex-grow:1;
+	margin:20px;
+
+	background:white;
+	
+}
+.layout {
+	display:flex;
+	justify-content:center;
+	}
+ul{
+	list-style-type: none;
+    margin: 0;
+    padding: 10px;
+    overflow: hidden;
+    background-color: white;
+    }
+li{
+	display:inline;
+	padding:0px;
+	margin:0;
+	border: 5px solid pink;
+}
+li a:{
+	display:block;
+	width:60px;
+}
+.active{
+	background-color:#4CAF50;
+	color:white;
+}
+footer{
+	border: 5px pink solid;
+	display:block
+	padding:20px;
+	clear:both;
+	}
